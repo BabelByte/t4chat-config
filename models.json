@@ -1,0 +1,101 @@
+[
+  {
+    "id": "openai/gpt-4.1-mini",
+    "name": "GPT-4.1 Mini",
+    "description": "Latest small model from OpenAI with improved capabilities and faster responses.",
+    "provider": "openai",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "features": ["multimodal", "codeGeneration", "fastResponse", "vision", "functionCalling", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "openai/gpt-4o-mini-search-preview",
+    "name": "GPT-4o Mini Search",
+    "description": "GPT-4o Mini with enhanced search capabilities and web access.",
+    "provider": "openai",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "features": ["multimodal", "codeGeneration", "fastResponse", "vision", "functionCalling", "webSearch", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4",
+    "name": "Claude Sonnet 4",
+    "description": "High-performance model with exceptional reasoning capabilities and balanced performance.",
+    "provider": "anthropic",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "features": ["multimodal", "codeGeneration", "reasoning", "thinking", "vision", "functionCalling", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku",
+    "name": "Claude 3.5 Haiku",
+    "description": "Fastest, most cost-effective model with intelligence at blazing speeds.",
+    "provider": "anthropic",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 200000,
+    "maxOutputTokens": 8192,
+    "features": ["multimodal", "codeGeneration", "fastResponse", "vision", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "google/gemini-2.5-flash-preview-05-20",
+    "name": "Gemini 2.5 Flash",
+    "description": "Google's latest multimodal model with advanced capabilities and fast responses.",
+    "provider": "google",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "features": ["multimodal", "codeGeneration", "reasoning", "thinking", "fastResponse", "longContext", "functionCalling", "vision", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Gemini 2.5 Pro",
+    "description": "Google's most advanced model with superior performance and capabilities.",
+    "provider": "google",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 65536,
+    "features": ["multimodal", "codeGeneration", "reasoning", "thinking", "longContext", "functionCalling", "vision", "fileUploads"],
+    "pricing": "paid"
+  },
+  {
+    "id": "google/gemma-3-27b-it:free",
+    "name": "Gemma 3 (Free)",
+    "description": "Google's lightweight open model optimized for instruction following, available for free.",
+    "provider": "google",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 131072,
+    "maxOutputTokens": 8192,
+    "features": ["codeGeneration", "fastResponse"],
+    "pricing": "free"
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324:free",
+    "name": "DeepSeek Chat V3 (Free)",
+    "description": "DeepSeek V3, a 685B-parameter mixture-of-experts model with excellent performance across various tasks.",
+    "provider": "deepseek",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 163840,
+    "maxOutputTokens": 8192,
+    "features": ["codeGeneration", "reasoning", "thinking", "fastResponse", "longContext"],
+    "pricing": "free"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528:free",
+    "name": "DeepSeek R1",
+    "description": "DeepSeek R1, a 671B-parameter model with excellent performance and reasoning capabilities.",
+    "provider": "deepseek",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 163840,
+    "maxOutputTokens": 163840,
+    "features": ["codeGeneration", "reasoning", "thinking", "fastResponse", "longContext"],
+    "pricing": "paid"
+  }
+] 
