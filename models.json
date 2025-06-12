@@ -11,6 +11,17 @@
     "pricing": "paid"
   },
   {
+    "id": "openai/gpt-4.1",
+    "name": "GPT-4.1",
+    "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning.",
+    "provider": "openai",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "features": ["multimodal", "codeGeneration", "fastResponse", "vision", "functionCalling", "fileUploads", "longContext", "reasoning", "thinking"],
+    "pricing": "paid"
+  },
+  {
     "id": "openai/gpt-4o-mini-search-preview",
     "name": "GPT-4o Mini Search",
     "description": "GPT-4o Mini with enhanced search capabilities and web access.",
